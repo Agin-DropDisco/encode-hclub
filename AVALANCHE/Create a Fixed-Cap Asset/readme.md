@@ -177,6 +177,6 @@ $ curl -X POST --data '{
 
 -   
 
-    Prof. Screen Shoot [wbrother](./ss/term-result2.png)
+    Prof. Screen Shoot [wbrother](https://github.com/Agin-DropDisco/encode-hclub/blob/main/AVALANCHE/Create%20a%20Fixed-Cap%20Asset/ss/term-result2.png)
 
 
