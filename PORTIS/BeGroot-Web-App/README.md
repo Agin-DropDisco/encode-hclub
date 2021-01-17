@@ -8,7 +8,7 @@
 `npm run start` or `yarn start`
 
 
-[Sneapeek Video](./2021.01.17-23.17_1.gif)
+[Sneapeek Video](../2021.01.17-23.17_1.gif)
 
 
 #### What has been done?
