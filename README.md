@@ -5,6 +5,8 @@
 
 [Avalanche: Follow the Tutorial](https://github.com/Agin-DropDisco/encode-hclub/tree/main/AVALANCHE)
 
+[PORTIS: Integrate with Portis](https://github.com/Agin-DropDisco/encode-hclub/tree/main/PORTIS)
+
 ## THE WEIRD BROTHER
 
 #### Member:
