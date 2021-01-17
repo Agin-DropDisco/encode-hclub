@@ -1,0 +1,82 @@
+#root {
+    background: #2b2d3c !important;
+    color: #fff !important;
+}
+.ui.card, .ui.cards>.card {
+    background: rgb(56, 61, 81);
+    border-color: rgb(75, 80, 98);
+    box-shadow: 0 1px 3px 0 #3f51b5ad, 0 0 0 1px #22c2ff;
+}
+.ui.card>.content>.header, .ui.cards>.card>.content>.header, .ui.statistic>.value, .ui.statistics .statistic>.value, 
+.ui.statistic>.label, .ui.statistics .statistic>.label {
+    color: #fff;
+}
+.ui.active.modal {
+    background: #2b2d3c;
+}
+.ui.label, .ui.table {
+    background-color: #383d51;
+    color: rgb(255 255 255);
+    border-color: rgb(75, 80, 98);
+}
+.ui.celled.table tr td:first-child, .ui.celled.table tr th:first-child {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px 0px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.ui.basic.blue.button, .ui.basic.blue.buttons .button {
+    color: #fff !important;
+}
+.ui.card .meta, .ui.cards>.card .meta {
+    color: #00BCD4;
+}
+.ui.card>.content>.description, .ui.cards>.card>.content>.description {
+    color: #ffffff75;
+}
+.ui.card>.content a:not(.ui), .ui.cards>.card>.content a:not(.ui) {
+    color: #00BCD4;
+}
+.ui.card>.extra, .ui.cards>.card>.extra {
+    background: #2b2d3c;
+    color: rgb(251 251 251);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px 0px;
+}
+.ui.button, .ui.buttons .button, .ui.buttons .or {
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px 0px;
+}
+.ui.table thead th {
+    background: #2b2d3c;
+    color: #fff;
+}
+
+.ui[class*="right pointing"].label::before {
+    border-color: #00BCD4;
+}
+.ui.form .fields>.field .ui.button {
+    background: #373c50;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px 0px;
+}
+.ui.info.message {
+    background-color: #383d51;
+    color: #383d51;
+}
+.ui.info.message .header {
+    color: #626bb1;
+}
+.ui.button i.search.icon::before {
+    color: #00BCD4;
+}
+.ui.feed>.event>.content .extra {
+    color: #00BCD4;
+}
+.ui.feed>.event>.content .summary {
+    color: #2185d0;
+}
+.ui.feed>.event>.label .icon {
+    color: #fff;
+}
+
+.ui.segment {
+    background: #383d51;
+}
