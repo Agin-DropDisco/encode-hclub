@@ -11,14 +11,14 @@
 
 1. Agin DropDisco
 
-Email: gin.dropdisco@gmail.com || dwidarto4@gmail.com
+    Email: gin.dropdisco@gmail.com || dwidarto4@gmail.com
 
-[Linkedin](https://www.linkedin.com/in/agin-dropdisco-5555b7171/)
+    [Linkedin](https://www.linkedin.com/in/agin-dropdisco-5555b7171/)
 
 
 2. Adinda Ratnawati Ridwan
 
-Email: adinda.ratna.info@gmail.com
+    Email: adinda.ratna.info@gmail.com
 
-[Linkedin](https://www.linkedin.com/in/adinda-ratnawati-ridwan-20a980170)
+    [Linkedin](https://www.linkedin.com/in/adinda-ratnawati-ridwan-20a980170)
 
