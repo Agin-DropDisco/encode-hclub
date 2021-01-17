@@ -1,0 +1,47 @@
+{
+  "name": "the-weird-brother",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Agin DropDisco // Adinda Ratnawati Ridwan",
+  "email": "gin.dropdisco@gmail.com // adinda.ratna.info@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@portis/web3": "^3.0.2",
+    "eth-sig-util": "2.1.1",
+    "gsap": "^3.0.1",
+    "json-loader": "^0.5.7",
+    "node-sass": "^4.13.0",
+    "normalize.css": "latest",
+    "react": "^16.12.0",
+    "react-animated-slider": "2.0.0",
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-toastify": "^6.2.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.0",
+    "web3": "^1.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

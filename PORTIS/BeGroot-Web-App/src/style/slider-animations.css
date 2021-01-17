@@ -1,0 +1,111 @@
+.slide  .ui.card .content .header:not(.ui), .ui.cards .card .content .header:not(.ui) {
+	transition: all 0.3s ease;
+	-webkit-transform: translateY(-20px);
+					transform: translateY(-20px);
+	opacity: 0;
+}
+
+.slide button {
+	transition: all 0.3s ease;
+	-webkit-transform: translateY(20px);
+					transform: translateY(20px);
+	opacity: 0;
+}
+
+.slide .ui.card .meta, .ui.cards .card .meta {
+	transition: all 0.3s ease;
+	-webkit-transform: translateY(20px);
+					transform: translateY(20px);
+	opacity: 0;
+}
+
+.slide section * {
+	transition: all 0.3s ease;
+}
+
+.slide section img {
+	-webkit-transform: translateY(-10px);
+					transform: translateY(-10px);
+	opacity: 0;
+}
+
+.slide section span {
+	-webkit-transform: translateY(-10px);
+					transform: translateY(-10px);
+	opacity: 0;
+}
+
+.slide section span strong {
+	-webkit-transform: translateY(10px);
+					transform: translateY(10px);
+	opacity: 0;
+}
+
+.slide.animateIn.previous  .ui.card .content .header:not(.ui), .ui.cards .card .content .header:not(.ui),
+.slide.current  .ui.card .content .header:not(.ui), .ui.cards .card .content .header:not(.ui),
+.slide.animateIn.next  .ui.card .content .header:not(.ui), .ui.cards .card .content .header:not(.ui),
+.slide.animateIn.previous button,
+.slide.current button,
+.slide.animateIn.next button,
+.slide.animateIn.previous .ui.card .meta, .ui.cards .card .meta,
+.slide.current .ui.card .meta, .ui.cards .card .meta,
+.slide.animateIn.next .ui.card .meta, .ui.cards .card .meta,
+.slide.animateIn.previous section *,
+.slide.current section *,
+.slide.animateIn.next section * {
+	-webkit-transform: translateY(0);
+	        transform: translateY(0);
+	-webkit-transition-delay: .5s;
+					transition-delay: .5s;
+					opacity: 1;
+}
+
+.slide.animateIn.previous .ui.card .meta, .ui.cards .card .meta,
+.slide.animateIn.next .ui.card .meta, .ui.cards .card .meta {
+	-webkit-transition-delay: .9s;
+					transition-delay: .9s;
+}
+
+.slide.animateIn.previous button,
+.slide.animateIn.next button {
+	-webkit-transition-delay: 1.3s;
+					transition-delay: 1.3s;
+}
+
+.slide.animateIn.previous section img,
+.slide.animateIn.next section img {
+	-webkit-transition-delay: 1.3s;
+					transition-delay: 1.3s;
+}
+
+.slide.animateIn.previous section span,
+.slide.animateIn.next section span {
+	-webkit-transition-delay: 1.4s;
+					transition-delay: 1.4s;
+}
+
+.slide.animateIn.previous section span strong,
+.slide.animateIn.next section span strong {
+	-webkit-transition-delay: 1.5s;
+					transition-delay: 1.5s;
+}
+
+.slide.animateOut  .ui.card .content .header:not(.ui), .ui.cards .card .content .header:not(.ui) {
+	-webkit-transition-delay: .3s;
+					transition-delay: .3s;
+}
+
+.slide.animateOut .ui.card .meta, .ui.cards .card .meta {
+	-webkit-transition-delay: .2s;
+					transition-delay: .2s;
+}
+
+.slide.animateOut section span {
+	-webkit-transition-delay: .1s;
+					transition-delay: .1s;
+}
+
+.slide.animateOut section span strong {
+	-webkit-transition-delay: 0s;
+					transition-delay: 0s;
+}
