@@ -1,4 +1,4 @@
-Create Subnet & New Blockchain {#create-subnet--new-blockchain}
+Create Subnet & New Blockchain 
 ------------------------------
 
 ###### On this tutorial we will create subnet, add a validator with API calls, adding a subnet validator , create/build genesis & create new blockchain {#on-this-tutorial-we-will-create-subnet-add-a-validator-with-api-calls-adding-a-subnet-validator--createbuild-genesis--create-new-blockchain}
