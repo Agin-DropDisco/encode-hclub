@@ -1,0 +1,12 @@
+{
+  "CUSTOM_TYPES": {
+    "Address": "AccountId",
+    "LookupSource": "AccountId",
+    "BurgerkingCode": {
+      "Team Name": "Vec<u8>",
+      "Presdir One": "Vec<u8>",
+      "Presdir Two": "Vec<u8>"
+    }
+  },
+  "PROVIDER_SOCKET": "ws://127.0.0.1:9944"
+}
