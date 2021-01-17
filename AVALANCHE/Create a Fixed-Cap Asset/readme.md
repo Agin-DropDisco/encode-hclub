@@ -9,7 +9,7 @@ $ cd $GOPATH/src/github.com/ava-labs/avalanchego
 $ ./scripts/build.sh
 ```
 
-### Start node & Connecting to Fuji (optional) {#start-node--connecting-to-fuji-optional}
+### Start node & Connecting to Fuji (optional) 
 
 ``` {.hljs}
 $ ./build/avalanchego --network-id=fuji
@@ -177,6 +177,6 @@ $ curl -X POST --data '{
 
 -   
 
-    Prof. Screen Shoot ![wbrother](./ss/term-result2.png)
+    Prof. Screen Shoot [wbrother](./ss/term-result2.png)
 
 
