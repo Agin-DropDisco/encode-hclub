@@ -13,9 +13,9 @@
 
 [Sneakpeek Video](../2021.01.17-23.17_1.gif)
 
-##### Responsive ?
+##### Info
 
-> Nan [ Laptop && Desktop only ]
+> Responsive (nan) Laptop && Desktop only 
 
 > Use Rinkeby Faucet
 
