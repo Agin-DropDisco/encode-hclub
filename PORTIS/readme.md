@@ -11,8 +11,13 @@
 
 [Web-app Files](https://github.com/Agin-DropDisco/encode-hclub/tree/main/PORTIS/BeGroot-Web-App)
 
+[Sneakpeek Video](../2021.01.17-23.17_1.gif)
 
-[Sneapeek Video](../2021.01.17-23.17_1.gif)
+##### Responsive ?
+
+> Nan [ Laptop && Desktop only ]
+
+> Use Rinkeby Faucet
 
 
 #### What has been done?
