@@ -18,7 +18,7 @@
 
 - [x] Send some Tips (ether) to user that Integrates with  Moonbeam Node  
 
-- [x] Export Markdown with html file and many more 
+- [x] Export as Markdown or html file and many more 
 
 ### If not running Moonbeam Node
 - [x] <del>• Publish Story </del> 
@@ -27,7 +27,7 @@
 
 - [x] <del>• Add Comment  </del> 
 
-- [x]  Export Markdown with html file 👌.
+- [x] Export as Markdown or html file 👌.
 
 ### make sure ran Moonbeam Node to use this App :)
 ---
