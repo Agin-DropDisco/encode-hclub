@@ -2,40 +2,35 @@
 ### Build Dapp on Polkadot Parachain
 
 ### Moonbeam 
----
 
 > Dapp Name : MAXbeam
----
 
-> 
 
 ### MAXbeam
 
-### A simple markdown blog app built with Moonbeam, Etherjs, React, Pouch DB.
+### A simple markdown blog / article app built with Moonbeam, Etherjs, React, Pouch DB.
 ---
 
 
 ### Running Moonbeam node on your Local dev, and this App will be available to:
 
-> • Publish Story ( like medium blog ) 
-> 
-> • Send some Tips (ether) to user that Integrates with  Moonbeam Node  
-> 
-> • Export Markdown with html file and many more 
+- [x] Publish Story ( like medium blog ) 
+
+- [x] Send some Tips (ether) to user that Integrates with  Moonbeam Node  
+
+- [x] Export Markdown with html file and many more 
 
 ### If not running Moonbeam Node
-> <del>• Publish Story </del> 
+- [x] <del>• Publish Story </del> 
 
-> <del>• Send some Tips (ether) to user that Integrates with  Moonbeam Node  </del> 
+- [x] <del>• Send some Tips (ether) to user that Integrates with  Moonbeam Node  </del> 
 
-> <del>• Add Comment  </del> 
-> 
-> • Export Markdown with html file 👌.
+- [x] <del>• Add Comment  </del> 
+
+- [x]  Export Markdown with html file 👌.
 
 ### make sure ran Moonbeam Node to use this App :)
 ---
----
-
 
 > [LIVE DEMO](https://maxbeam-app.web.app/)
 
