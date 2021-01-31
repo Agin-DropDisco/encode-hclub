@@ -37,11 +37,12 @@
 ---
 
 
-> [LIVE DEMO]((https://maxbeam-app.web.app/))
+> [LIVE DEMO](https://maxbeam-app.web.app/)
 
-> VIDEO DEMO: COOMING SOON
 
-```jsx
+> VIDEO DEMO: COMING SOON
+
+```bash
 
 yarn install
 
@@ -109,10 +110,9 @@ yarn start
 
 - JS framework - [React](https://github.com/facebook/react/)
 - Backend
-   - [Moonbeam](https://github.com/facebook/react/)
-   - [PouchDB](https://github.com/facebook/react/)
-   - [Ether](https://github.com/facebook/react/)
-   - [Moonbeam](https://github.com/facebook/react/)
+   - [Moonbeam](https://docs.moonbeam.network/)
+   - [PouchDB](https://github.com/pouchdb/pouchdb/)
+   - [Ether](https://docs.ethers.io/)
 - UI Composer - [Ant Design](https://github.com/ant-design/ant-design/)
 - State Manager - [Redux](https://github.com/reactjs/redux/)
 - Front-End Router - [React-Router](https://github.com/ReactTraining/react-router)
