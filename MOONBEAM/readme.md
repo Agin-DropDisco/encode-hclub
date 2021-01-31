@@ -15,7 +15,7 @@
 
 #### to run this app, make sure ran Moonbeam Node, if its not you wont be able to Taste this app  :)
 
-LIVE DEMO: COOMING SOON
+[LIVE DEMO](https://maxbeam-app.web.app)
 
 VIDEO DEMO: COOMING SOON
 
@@ -29,4 +29,5 @@ yarn start
 > This App works on Local Storage
 
 >> user: moon
+
 >> password: beam
