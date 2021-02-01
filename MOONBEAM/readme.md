@@ -7,9 +7,7 @@
 
 ### [LIVE DEMO](https://maxbeam-app.web.app/)
 
-#### Username: moon
 
-#### Pass: beam
 
 ### MAXbeam
 
