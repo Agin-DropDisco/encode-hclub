@@ -5,6 +5,7 @@
 
 > Dapp Name : MAXbeam
 
+### [LIVE DEMO](https://maxbeam-app.web.app/)
 
 ### MAXbeam
 
@@ -97,9 +98,9 @@ yarn start
 
 ## Other resources
 
-- [x] [Why only works for Local Storage ?](.com)
+- [x] [Why only works for Local Storage ?](#)
 
-- [x] [How to Change with Live API ?](.com)
+- [x] [How to Change with Live API ?](#)
 
 ## Built With
 
