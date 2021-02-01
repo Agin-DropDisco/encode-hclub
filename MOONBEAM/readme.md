@@ -7,6 +7,10 @@
 
 ### [LIVE DEMO](https://maxbeam-app.web.app/)
 
+#### Username: moon
+
+#### Pass: beam
+
 ### MAXbeam
 
 ### A simple markdown blog / article app built with Moonbeam, Etherjs, React, Pouch DB.
