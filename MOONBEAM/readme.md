@@ -1,59 +1,59 @@
 
+
 ### Build Dapp on Polkadot Parachain
 
-### Moonbeam 
+## Moonbeam 
 
-> Dapp Name : MAXbeam
+### Dapp Name : MAXbeam
 
 ### [LIVE DEMO](https://maxbeam-app.web.app/)
-
-### [Commit File Responsive for all Device](https://github.com/Agin-DropDisco/MAXbeam-App)
-
-### MAXbeam
 
 ### A simple markdown blog / article app built with Moonbeam, Etherjs, React, Pouch DB.
 ---
 
 
-### Running Moonbeam node on your Local dev, and this App will be available to:
+### { IF } Running Moonbeam node on your Local dev and login to MAXbeam website , and this App will be available to:
 
-- [x] Publish Story ( like medium blog ) 
+- [x] Create and Publish Article 
 
-- [x] Send some Tips (ether) to user that Integrates with  Moonbeam Node  
+- [x] Send tip  to user that Integrates with  Moonbeam Node  
 
 - [x] Export as Markdown or html file and many more 
 
-### If not running Moonbeam Node
-- [x] <del>• Publish Story </del> 
+- [x] And many more .
 
-- [x] <del>• Send some Tips (ether) to user that Integrates with  Moonbeam Node  </del> 
+### { Else }
+- [x] <del> Publish Story </del> 
 
-- [x] <del>• Add Comment  </del> 
+- [x] <del> Send some Tips (ether) to user that Integrates with  Moonbeam Node  </del> 
 
-- [x] Export as Markdown or html file 👌.
+- [x] <del> Add Comment  </del> 
 
-### make sure ran Moonbeam Node to use this App :)
+- [x] <del>Export as Markdown or html file </del> 
 ---
 
 > [LIVE DEMO](https://maxbeam-app.web.app/)
 
 
-> VIDEO DEMO: COMING SOON
-
-```bash
-
-yarn install
-
-yarn start
-```
-
-> Only after logging in, you can see the editing option and create a new article. The following is the testing account:
-
-| username | password |
-| :------: | :------: |
-| moon     | beam  |
-
+####  Only after logging in, you can see the editing option and create a new article
 ---
+Ran moonbeam stand alone node and login: 
+- [x] <img src ="">
+
+Error message  when try to login but not running moonbeam node
+- [x] <img src ="">
+
+Create, Edit && Publish Article
+- [x] <img src ="">
+- [x] <img src ="">
+- [x] <img src ="">
+
+Send Tips 
+- [x] <img src ="">
+
+Check the transaction
+- [x] <img src ="">
+- [x] <img src ="">
 
 
 ## Feature List
@@ -95,7 +95,7 @@ yarn start
 
 ## Showcase 
 
-[YOUTUBE](youtube.com)
+[YOUTUBE](#)
 
 
 ## Other resources
