@@ -37,23 +37,23 @@
 
 ####  Only after logging in, you can see the editing option and create a new article
 ---
-Ran moonbeam stand alone node and login: 
+### Ran moonbeam stand alone node and login: 
 - [x] <img src ="./ss/login-true.png" align="center">
 
-Error message  when try to login but not running moonbeam node
+### Error message  when try to login but not running moonbeam node
 - [x] <img src ="./ss/cant-login.png" align="center">
 
-Create, Edit && Publish Article
+### Create, Edit && Publish Article
 - [x] <img src ="./ss/c1.png" align="center">
 - [x] <img src ="./ss/c2.png" align="center">
 - [x] <img src ="./ss/c3.png" align="center">
 
-Send Tips 
+### Send Tips 
 - [x] <img src ="./ss/send-tips.png" align="center">
 - [x] <img src ="./ss/send-tips2.png" align="center">
 - [x] <img src ="">
 
-Check the transaction
+### Check the transaction
 - [x] <img src ="./ss/check-tips.png" align="center">
 
 
