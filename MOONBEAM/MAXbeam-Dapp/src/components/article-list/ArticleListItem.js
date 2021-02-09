@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 import { Col, Icon, Popconfirm, Row, Tag, Tooltip } from "antd";
@@ -10,7 +10,7 @@ import { checkImageUrlIsValid } from "../../utils/index";
 
 dayjs.extend(relativeTime);
 
-class ArticleItem extends Component{
+class ArticleItem extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
@@ -115,10 +115,10 @@ class ArticleItem extends Component{
           </Row>
           <p className={styles.excerpt} >
             {
-              excerpt.length > 200
+              excerpt.length > 180
                 ? (
                   <span>
-                    {excerpt.slice(0, 200) + ' ... '}
+                    {excerpt.slice(0, 180) + ' ... '}
                     <span className={styles.readMoreLink}>
                       <Link to={toReadPage}>
                         Read More
@@ -141,13 +141,46 @@ class ArticleItem extends Component{
             <Col>
               <div className={styles.tagList}>
                 <TagGroup tags={tags} />
+                {
+                isLoggedIn
+                  ? (
+                    <>
+                      <Popconfirm
+                        title={'Are you sure to delete this article?'}
+                        okText={'Yes'}
+                        onConfirm={this.handleDelete}
+                      >
+                        <button
+                          className={styles.editOption}
+                          title='Delete the article'
+                        >
+                        <Icon type="delete" style={{paddingRight: "3px"}} />
+                          DELETE
+                        </button>
+                      </Popconfirm>
+
+                      <Link to={`/article/${id}/edit`}>
+                        <button
+                          className={styles.editOption}
+                          onClick={this.handleEdit}
+                          title='Jump to the edit page'
+                        >
+                          <Icon type="diff" style={{paddingRight: "3px"}}/>
+                          EDIT
+                        </button>
+                      </Link>
+                    </>
+                  ) : (
+                    null
+                  )
+              }
               </div>
             </Col>
             <Col>
-              {
+              {/* {
                 isLoggedIn
                   ? (
-                    <div>
+                    <>
                       <Popconfirm
                         title={'Are you sure to delete this article?'}
                         okText={'Yes'}
@@ -170,11 +203,11 @@ class ArticleItem extends Component{
                           <Icon type="edit" />
                         </button>
                       </Link>
-                    </div>
+                    </>
                   ) : (
                     null
                   )
-              }
+              } */}
             </Col>
           </Row>
         </div>

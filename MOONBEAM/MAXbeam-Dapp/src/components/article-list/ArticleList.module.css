@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
 .sans-serif-font {
   font-family: 'Open Sans', sans-serif;
 }
@@ -58,8 +65,33 @@
   margin: 15px 10px;
   transition: all ease-in 300ms;
   height: 280px;
+  position: relative;
+  min-height: 1px;
+  width: 47.7777777%!important;
+  
 }
 
+@media only screen and (max-width: 733px) {
+  /* For mobile phones: */
+  .itemWrapper {
+    width: 400px !important;
+  }
+  .imageWrapper {
+    margin-right: 6px !important;
+  }
+  
+}
+
+@media only screen and (max-width: 667px) {
+  /* For mobile phones: */
+  .itemWrapper {
+    width: 100% !important;
+  }
+  .imageWrapper {
+    margin-right: 6px !important;
+  }
+  
+}
 .itemWrapper:hover {
   /*border-top: 1px solid rgba(0, 0, 0, 0.1);*/
   /*box-shadow: 0 2px 4px 1px rgba(0, 0, 0, .3);*/
@@ -76,6 +108,53 @@
   width: 210px;
   box-shadow: none;
   transition: all ease-in 300ms;
+}
+@media only screen and (max-width: 800px) {
+
+  .itemWrapper {
+    width: auto;
+  }
+
+}
+@media only screen and (max-width: 812px) {
+  /* For mobile phones: */
+  .image {
+    width: 155px;
+  }
+  .pageIndicator {
+    composes: sans-serif-font;
+
+    margin: 33px 0 0 0 !important;
+  }
+  .pageIndicator::before,
+  .pageIndicator::after {
+width: 15% !important;
+  }
+  .ant-divider-horizontal.ant-divider-with-text-center::before {
+    width: 15% !important;
+  }
+  .contentWrapper {
+    display: inline-block !important;
+  }
+  .excerpt {
+    font-size: 11px;
+    bottom: 7px !important;
+  }
+  .title {
+    width: 100%;
+  }
+  .editOption {
+    left: 80px !important;
+    color: #121212 !important;
+    position: relative;
+    background: #e8e8e8;
+    font-size: 8px !important;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .editOption {
+    left: 76px !important;
+  }
 }
 
 .itemWrapper:hover .image{
@@ -128,6 +207,8 @@
   margin: 3px 8px 0px;
   bottom: 6px;
   position: relative;
+  width: 90%;
+  text-align: justify;
 }
 
 .excerpt span:first-child {
@@ -137,6 +218,7 @@
     font-weight: 600;
     text-align: left;
     vertical-align: middle;
+    text-align: justify;
 }
 .readMoreLink a {
   display: inline-block;
@@ -157,18 +239,16 @@
 
 .editOption {
   composes: button from '../header/Header.module.css';
-  font-size: 1.2rem;
-  border: none;
-  line-height: 24px;
-  padding: 0 6px;
-  margin: -5px 0 5px 10px;
-  position: relative;
+  font-size: 10px;
   display: inline-block;
-  width: 20%;
-  text-align: right;
-  float: right;
-  text-align: right;
-  left: 160px;
+  /* background: black; */
+  margin: 0 5px 0 0;
+  border-radius: 10px;
+  color: #000000;
+  /* background: #e6fffb; */
+  /* border-color: #87e8de; */
+  font-weight: 900;
+
 }
 
 .tagListWrapper {
@@ -178,7 +258,7 @@
 .tagList {
     font-weight: 600;
     position: relative;
-    bottom: 7px;
+    bottom: 0;
     vertical-align: baseline;
     text-align: left;
 }

@@ -1,6 +1,8 @@
 import markdownFeatureSrc from '../assets/markdown-test-file';
 import markdownMoonbeam from '../assets/markdownMoonbeam';
 import markPolka from '../assets/markPolkadot';
+import markdownPortis from '../assets/markPortis';
+
 
 let data = [
   {
@@ -39,7 +41,7 @@ let data = [
   },
   {
     id: '2',
-    title: 'This is a very long long long long long long long long long title No.2',
+    title: 'This is Just Sample Draft',
     author: 'burgerking12',
     excerpt: 'The first Moonbeam TestNet, named Moonbase Alpha, aims to provide developers with a place to start experimenting and building on Moonbeam in a shared environment. Since Moonbeam will be deployed as a parachain on Kusama and Polkadot, we want our TestNet to reflect our production configuration. For this reason, we decided that it needed to be a parachain-based configuration rather than a Substrate standalone setup.',
     cover:{
@@ -55,19 +57,20 @@ let data = [
   },
   {
     id: '3',
-    title: 'Letme In',
-    author: 'Adinda RR',
-    excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus molestie nunc non blandit massa enim nec dui. At tellus at urna condimentum mattis pellentesque. Volutpat est velit egestas dui id ornare arcu odio ut. Purus viverra accumsan in nisl nisi.',
+    title: 'PORTIS || Methods & Event Handlers',
+    author: 'Agin DropDisco',
+    excerpt: 'Your Dapp (Decentralized Application) communicates with the Portis SDK using the standard web3.js methods, meaning it will work automatically with your existing code. Users won’t have to install anything in advance to use your DApp. With Portis, your DApp already comes bundled with a solution by offering them a simple in-browser email/password login method which feels familiar.',
     cover:{
-      url: 'https://images.unsplash.com/flagged/photo-1579941429125-4be1ab232711?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8YmxvY2tjaGFpbiUyMGJhcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      authorName: 'Rye Jessen',
+      url: 'https://miro.medium.com/max/2000/1*kxTOXunkKXMSfrEgsuqasA.png',
+      authorName: 'portis team',
       authorLink: 'https://github.com/Agin-DropDisco'
     },
-    tags: ['story', 'daily', "sport", "movie"],
-    markdown: '## Conten Title',
+    tags: ['Blockchain', 'Dapp', "Portis"],
+    markdown: markdownPortis,
+    htmlOutput: '',
     isPublished: true,
-    postedAt: '2020-08-15T18:16:01.296Z',
-    updatedAt: '2020-08-21T18:16:01.296Z',
+    postedAt: '2020-12-16T18:16:01.296Z',
+    updatedAt: '2020-12-17T18:16:01.296Z',
   },
   {
     id: '4',
@@ -80,7 +83,7 @@ let data = [
       authorLink: 'https://github.com/Agin-DropDisco'
     },
     tags: ['story', 'daily', "sport", "movie"],
-    markdown: '## This is content No.4',
+    markdown: '## Who is Building on Moonbeam',
     isPublished: true,
     postedAt: '2020-08-15T18:16:01.296Z',
     updatedAt: '2020-08-21T18:16:01.296Z',

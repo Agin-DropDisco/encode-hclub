@@ -1,15 +1,12 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import { ethers } from "ethers";
 import { Button, Col, Popover, Row, Checkbox, message } from "antd";
-
-import styles from './Header.module.css';
+import { toast, Zoom } from "react-toastify";
 import {
-  sendTo,
-  wallet,
-  thisNoAmmount,
-} from "../backend/Moonbeam";
+  moonbeamInit,
+} from "../backend/MoonbeamWeb3";
+import styles from './Header.module.css';
 
 class EditPageSaveOption extends Component {
   static propTypes = {
@@ -46,25 +43,10 @@ class EditPageSaveOption extends Component {
     ////// await transactions Moonbeam
     const { id, markdown, saveArticleContent, resetContentEditStatus } = this.props;
 
-    try {
-      const tx = {
-        to: sendTo,
-        value: ethers.utils.parseEther(thisNoAmmount),
-      };
-      const createReceipt = await wallet.sendTransaction(tx);
-      await createReceipt.wait();
-      console.log(`Transaction successful with hash: ${createReceipt.hash}`);
-    } catch (err) {
-      message.error("You are not connected to Moonbeam Node 👻");
 
-    } finally {
       resetContentEditStatus();
       saveArticleContent(id, { markdown });
-      message.config({
-      duration: 2
-    });
 
-    }
 
   };
 
@@ -143,40 +125,56 @@ class EditPageSaveOptionContent extends Component {
     this.setState({
       confirmLoading: true,
     });
-    
-    try {
-      const tx = {
-        to: sendTo,
-        value: ethers.utils.parseEther(thisNoAmmount),
-      };
-      const createReceipt = await wallet.sendTransaction(tx);
-      await createReceipt.wait();
-      console.log(`Transaction successful with hash: ${createReceipt.hash}`);
-    } catch (err) {
-      message.error("You are not connected to Moonbeam Node 👻");
-
-    } finally {
+    ////////////////
+    moonbeamInit.eth
+    .getAccounts()
+    .then((accounts) => {
       publishArticle(id);
       hidePopover();
-      message.config({
-        duration: 2
-      });
-    }
+      toast.dark(" 📑 Publish Article successfully ",  {
+        position: "top-center",
+        toastId: "TcenterA",
+        autoClose: 5000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        textAlign: "center",
+        transition: Zoom
+        });
+      console.log(accounts);
+    }).catch((error) => {
+      toast.dark("⛔️ You need to Run Moonbeam Node",  {
+        position: "top-center",
+        toastId: "Tcenter",
+        autoClose: 5000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        textAlign: "center",
+        transition: Zoom
+        });
+      console.log(error);
+    });
+
 
   };
 
   render() {
     const PublishOption = this.state.isRedirected ? (
       <Col>
-        <Link to="/articles">
           <button
             className={styles.publishButton}
             onClick={this.clickOnPublish}
             title="After publishing in article list, you can find it in article list page."
           >
-            Ready to publish
+          <Link to="/articles"
+          style={{color: "white"}}
+          >Ready to publish</Link>
           </button>
-        </Link>
       </Col>
     ) : (
       <Col>
@@ -223,7 +221,11 @@ class EditPageSaveOptionContent extends Component {
         <Row type="flex" justify="center" align="middle">
           <Col>
             <Checkbox defaultChecked={true} value={this.state.isRedirected} onChange={this.toggleCheckbox} className="let-blue">
-              Redirect to the relevant page later
+              <span className="redirector" 
+                      style={{
+          color: "black",
+        }}
+              >Redirect to the relevant page later</span>
             </Checkbox>
           </Col>
         </Row>

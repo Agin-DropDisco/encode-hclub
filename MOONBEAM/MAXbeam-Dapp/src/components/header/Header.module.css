@@ -35,6 +35,16 @@
   letter-spacing: 2px;
 }
 
+@media only screen and (max-width: 733px) {
+  /* For mobile phones: */
+  .button {
+    font-size: 14px;
+  }
+  
+}
+.publish-color {
+   color: white !important;
+}
 .logo {
   composes: button;
   font-family: 'Rajdhani', sans-serif;

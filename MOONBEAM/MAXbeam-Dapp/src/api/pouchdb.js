@@ -5,7 +5,7 @@ import mockData from "./data";
 
 PouchDB.plugin(pouchdb_find);
 
-const db = new PouchDB("MAX MoonBeam", { auto_compaction: true });
+const db = new PouchDB("MAX MoonBeam part II-A", { auto_compaction: true });
 
 const bulkDocsData = mockData.map(article => {
   article._id = "article_" + article.id;

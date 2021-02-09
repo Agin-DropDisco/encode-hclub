@@ -280,22 +280,15 @@ p, ul, li, a, table, button {
 
 button.button-base {
   margin: 5px 12px 0 0;
-  width: 200px;
+  width: 300px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#tipbutton {
+  font-size: 17px;
+  border-radius: 8px;
+  letter-spacing: 5px;
+  height: 45px;
+  vertical-align: middle;
+}
 
 
 .date-title {
@@ -411,4 +404,57 @@ button.button-base {
     font-family: 'Rajdhani', sans-serif;
 letter-spacing: 1px;
 text-transform: capitalize;
+}
+
+.anticon-delete {
+  padding-right: 2px;
+}
+#rcDialogTitle1 {
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+#TcenterA {
+  text-align: center;
+  background: #121212;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.2px;
+  color: rgb(0 0 0);
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: white;
+  box-shadow: 0px 4px 12px black !important;
+  min-height: 35px;
+}
+.ArticleRead_content__3r7rT .markdown-body h1, .ArticleRead_content__3r7rT .markdown-body h2, .ArticleRead_content__3r7rT .markdown-body h3, .ArticleRead_content__3r7rT .markdown-body h4, .ArticleRead_content__3r7rT .markdown-body h5, .ArticleRead_content__3r7rT .markdown-body h6 {
+  /* font-weight: 700; */
+  letter-spacing: 2px;
+  /* font-family: 'Rajdhani', sans-serif !important; */
+
+}
+.ArticleRead_content__3r7rT .markdown-body p, .ArticleRead_content__3r7rT .markdown-body ul, .ArticleRead_content__3r7rT .markdown-body li, .ArticleRead_content__3r7rT .markdown-body a, .ArticleRead_content__3r7rT .markdown-body table {
+  text-align: justify !important;
+}
+
+@media only screen and (max-width: 812px) {
+  /* For mobile phones: */
+  .ant-col-offset-4 {
+    margin-left: 5%;
+  }
+  .ant-col-offset-11 {
+    margin-left: 56%;
+  }
+  
+  .App {
+        min-width: unset !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+  }
 }

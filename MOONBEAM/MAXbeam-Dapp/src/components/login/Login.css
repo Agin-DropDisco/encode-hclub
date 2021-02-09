@@ -26,3 +26,22 @@
   background-color: #f16307;
 }
 
+#Tcenter {
+  text-align: center;
+  background: #121212;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.2px;
+  color: #800000;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px black !important;
+  min-height: 35px;
+}
+#rcDialogTitle0 {
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}

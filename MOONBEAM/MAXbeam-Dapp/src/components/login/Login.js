@@ -53,7 +53,7 @@ class LoginModal extends React.Component {
         
         <Modal
           width={400}
-          title="LOGIN STATE"
+          title="LOGIN WITH MOONBEAM"
           visible={this.state.visible}
           onCancel={this.handleCancel}
           footer={null}

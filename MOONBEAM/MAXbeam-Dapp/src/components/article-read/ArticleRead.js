@@ -5,7 +5,6 @@ import dayjs from "dayjs";
 
 import { GeneralHeader as Header } from "../header/TheHeader";
 import TipsSend  from "../article-list/TipsComposer";
-import Commentar  from "../backend/Komentar";
 
 // ScrollToTop is used to reset the scroll bar to top, due to react-router doesn't handle it.
 import { MarkdownParser, ScrollToTop } from '../../utils';
@@ -39,9 +38,7 @@ const ArticleRead = (props) => {
           <HeaderPhoto cover={cover} />
           <Content markdown={markdown}/>
           <TipsSend />
-          <Commentar />
           <BackTop/>
-      
         </Col>
       </Row>
     </div>
