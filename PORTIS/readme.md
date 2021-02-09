@@ -11,7 +11,7 @@
 
 [Web-app Files](https://github.com/Agin-DropDisco/encode-hclub/tree/main/PORTIS/BeGroot-Web-App)
 
-[Sneakpeek Video](../2021.01.17-23.17_1.gif)
+[Sneakpeek Video](./2021.01.17-23.17_1.gif)
 
 ##### Info
 
