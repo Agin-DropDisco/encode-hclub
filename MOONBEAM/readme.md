@@ -38,7 +38,7 @@
 ####  Only after logging in, you can see the editing option and create a new article
 ---
 Ran moonbeam stand alone node and login: 
-- [x] <img src ="">
+- [x] <img src ="./ss/login-true.png" align="center">
 
 Error message  when try to login but not running moonbeam node
 - [x] <img src ="">
