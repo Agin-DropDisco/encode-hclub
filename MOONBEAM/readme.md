@@ -18,7 +18,7 @@
 
 - [x] Send tip  to user that Integrates with  Moonbeam Node  
 
-- [x] Export as Markdown or html file and many more 
+- [x] Export as Markdown or html file
 
 - [x] And many more .
 
